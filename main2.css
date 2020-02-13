@@ -526,7 +526,7 @@ input[type="submit"]:hover {
         background-size: cover;
     }
     .landing-text h1 {
-        font-size: 15rem;
+        font-size: 11rem;
     }
     .landing-text h6 {
         font-size: 1.7rem;
@@ -571,6 +571,7 @@ input[type="submit"]:hover {
     }
     .timeline .date::before {
         left: -20rem;
+        font-size: inherit;
     }
     .timeline .date::after {
         left: -5.9rem;
