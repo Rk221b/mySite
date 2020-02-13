@@ -38,6 +38,7 @@
                 });
             });
         });
+        sssss
     </script>
 
 </head>
@@ -264,11 +265,11 @@
             </div>
             <form action="" id="myform" method="post" data-aos='fade-up' data-aos-delay='300'>
                 <label for="first-name">First Name:</label>
-                <input type="text" name="firstname" id="firstname" placeholder="first name">
+                <input type="text" name="firstname" id="firstname" placeholder="first name" required>
                 <label for="last-name">Last Name:</labelfor>
                     <input type="text" name="lastname" id="lastname" placeholder="last name">
                     <label for="email">Email:</labelfor>
-                        <input type="text" name="email" id="email" placeholder="email">
+                        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" id="email" placeholder="email">
                         <label for="message">Message:</labelfor>
                             <textarea name="message" id="message" cols="30" rows="10"
                                 placeholder="Your Message..."></textarea>
